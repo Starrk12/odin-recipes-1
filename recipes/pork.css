@@ -2,8 +2,64 @@
     font-family: "Akaya Telivigala";
     box-sizing: border-box;
 }
-
+ 
 body{
-    background-color: #0d1117;
+    background:
+    linear-gradient(
+        180deg,
+        #0d1120,
+        #0d1125
+    );
     color: #c9d1d9;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    border:2px solid #c9d1d9;
+}
+
+.all{
+    position: relative;
+    left: 550px;
+    width: 45em;
+    background-color: #0d1117;
+    border-radius: 15px;
+    border:2px solid #c9d1d9 ;
+    padding: 15px;
+}
+
+.ingredients li{
+    text-align: left;
+}
+
+.steps li{
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+    float: left;
+    padding-left: 180px;
+}
+
+.nutrients{
+    text-align: center;
+}
+
+.bold-right{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #c9d1d9;
+    background-color: #0d1117;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-right: 1px solid #c9d1d9;
+    border-bottom: 1px solid #c9d1d9;
 }

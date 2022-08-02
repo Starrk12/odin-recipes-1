@@ -2,7 +2,7 @@
     font-family: "Akaya Telivigala";
     box-sizing: border-box;
 }
-
+ 
 body{
     background:
     linear-gradient(
@@ -53,11 +53,13 @@ img{
 
 a{
     text-decoration: none;
-    color: #0d1117;
-    background-color: #c9d1d9;
+    color: #c9d1d9;
+    background-color: #0d1117;
     position: absolute;
     left: 0;
     top: 0;
     padding: 15px;
     font-size: 1.3rem;
+    border-right: 1px solid #c9d1d9;
+    border-bottom: 1px solid #c9d1d9;
 }
